@@ -1,4 +1,4 @@
-# Pybank and PyPoll, an analysis financial and election data using Python 
+# Pybank and PyPoll, an analysis on financial and election data using Python 
 
 Pybank: With the given dataset "budget_data.csv" we are able to use this script to find: profit/loss through periods of time
 
