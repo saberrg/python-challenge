@@ -61,7 +61,7 @@ with open(output_path, "w") as txtfile:
 
     for candidate, votes in candidateVotes.items():
         votePercentage = (votes / totalVotes) * 100
-        votePercentageFormatted = "{:.3f}".format(votePercentage)
+        votePercentageFormatted = "{:.2f}".format(votePercentage)
         txtfile.write(f"{candidate}: {votePercentageFormatted}% ({votes})\n")
 
     txtfile.write("-------------------------\n")
