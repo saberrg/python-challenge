@@ -38,7 +38,7 @@ print("-------------------------")
 # Iterate over the candidates and calculate their vote percentage
 for candidate, votes in candidateVotes.items():
     votePercentage = (votes / totalVotes) * 100
-    votePercentageFormatted = "{:.3f}".format(votePercentage)
+    votePercentageFormatted = "{:.2f}".format(votePercentage)
     print(f"{candidate}: {votePercentageFormatted}% ({votes})")
 
     # Determine the winner based on the highest vote count and print them
